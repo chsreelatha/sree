@@ -1,0 +1,11 @@
+									Angular Js
+								   ------------
+									
+Angular Js is javascript framework, it is library written in Javascript
+it can be added to a webpage through <script>tag.
+
+Ajs can extends HTML with ng-directives
+
+ng-app => it can defines angularJs application.
+ng-model => directs binds the value of HTML controls(input,select,textarea) to application data.
+ng-bind => directive binds application data to HTML page.
