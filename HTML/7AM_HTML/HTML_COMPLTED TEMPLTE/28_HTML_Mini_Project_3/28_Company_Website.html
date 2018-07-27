@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Website</title>
+    <style>
+    	body{
+    		font-family: comic sans MS sans-serif;
+    		margin: 0;
+    	}
+    	header, footer{
+    		background: white url("../img/water.jpg") scroll no-repeat bottom;
+    		background-size: cover;
+    		padding: 10px;
+    		color: white;
+    		text-align: center;
+    	}
+
+    	/*---Main Navigation---*/
+
+    	nav{
+    		background-color: #182020;
+    		overflow: hidden;
+    	}
+    	nav ul{
+    		list-style-type: none;
+    		padding: 0;
+    		margin: 0;
+       	}
+       	nav ul li{
+       		float: left;
+       	}
+       	nav ul li a{
+       		text-decoration: none;
+       		color: white;
+       		padding: 10px 25px;
+       		display: inline-block;
+       		font-size: 18px;
+       	}
+       	nav ul li a:hover{
+       		background-color: #636a46;
+       	}
+       	nav ul li a.active{
+       		background-color: forestgreen;
+       	}
+
+/*--sidebar section--*/
+
+       	aside{
+       		background-color: lightgrey;
+       		float: left;
+       		width: 200px;
+       		text-align: center;
+       		height: 350px;
+       		overflow-y: scroll;
+       	}
+       	aside ul{
+       		list-style-type: none;
+       		padding: 0;
+       		margin: 0;
+       	}
+       	aside ul li a{
+       		text-decoration: none;
+       		color: black;
+       		padding: 15px 25px;
+       		display: block;
+       	}
+       	aside ul li a:hover{
+       		background-color: #636a46;
+       		color: white;
+       	}
+
+       	/*--Main Content section--*/
+       	section{
+       		margin-left: 200px;
+       		border-left: 2px solid grey;
+       		padding: 10px;
+       	}
+       	details{
+       		background-color: #636a46;
+       		color: white;
+       		margin: 5px;
+       		padding: 10px;
+       		border-radius: 50px;
+       	}
+       	article{
+       		background-color: #b9bd89;
+       		border-radius: 50px;
+       		padding: 10px;
+       		color: black;
+       	}
+       	summary{
+       		outline: none;
+       	}
+       	footer{
+       		line-height: 10px;
+       	}
+
+    </style>
+
+</head>
+<body>
+<!--Main Header-->
+<header>
+	<h1>UI Brains Technologies</h1>
+	<P>Aliqua cillum anim cillum sit excepteur quis nisi sint.</P>
+</header>
+    
+    <!--Main Navigation-->
+    <nav>
+    	<ul>
+    		<li>
+    			<a href="#" class="active">
+    				<i class="fa fa"></i>Home</a>
+    		</li>
+    		<li>
+    			<a href="#">About Us</a>
+    		</li>
+    		<li>
+    			<a href="#">Career</a>
+    		</li>
+			<li>
+    			<a href="#">Courses</a>
+    		</li>
+
+    	</ul>
+    </nav>
+<!--sidebar section-->
+<aside>
+	<ul>
+		<li>
+			<a href="#">HTML</a>
+		</li>
+		<li>
+			<a href="#">CSS</a>
+		</li>
+<li>
+			<a href="#">Javascript</a>
+		</li>
+<li>
+			<a href="#">Bootstrap</a>
+		</li>
+<li>
+			<a href="#">AngularJs</a>
+		</li>
+
+	</ul>
+</aside>
+
+<!--Main Content-->
+<section>
+	<details>
+		<summary>HTML</summary>
+		<article>
+			<h3>HTML</h3>
+			<p>Lorem ipsum consequat voluptate adipisicing aliquip laboris in qui sunt ad commodo dolor qui tempor occaecat enim mollit aute et.</p>
+			<p>Nostrud duis voluptate irure est in occaecat deserunt in commodo amet nulla sunt sed irure.</p>
+		</article>
+	</details>
+</section>
+
+<section>
+	<details>
+		<summary>CSS</summary>
+		<article>
+			<h3>CSS</h3>
+			<p>Lorem ipsum consequat voluptate adipisicing aliquip laboris in qui sunt ad commodo dolor qui tempor occaecat enim mollit aute et.</p>
+			<p>Nostrud duis voluptate irure est in occaecat deserunt in commodo amet nulla sunt sed irure.</p>
+		</article>
+	</details>
+</section>
+
+<section>
+	<details>
+		<summary>Javascript</summary>
+		<article>
+			<h3>Javascript</h3>
+			<p>Lorem ipsum consequat voluptate adipisicing aliquip laboris in qui sunt ad commodo dolor </p>
+			<p>Ut veniam sint dolor proident duis commodo ex duis eiusmod minim incididunt sed sunt dolore.</p>
+		</article>
+	</details>
+</section>
+
+			<section>
+	<details>
+		<summary>Bootstrap</summary>
+		<article>
+			<h3>Bootstrap</h3>
+			<p>Lorem ipsum consequat voluptate adipisicing aliquip laboris in qui sunt ad commodo dolor qui tempor occaecat enim mollit aute et.</p>
+			<p>Nostrud duis voluptate irure est in occaecat deserunt in commodo amet nulla sunt sed irure.</p>
+		</article>
+	</details>
+</section>
+
+<section>
+	<details>
+		<summary>AngularJs</summary>
+		<article>
+			<h3>AngularJs</h3>
+			<p>Lorem ipsum consequat voluptate adipisicing aliquip laboris in qui sunt ad commodo dolor qui tempor occaecat enim mollit aute et.</p>
+			<p>Nostrud duis voluptate irure est in occaecat deserunt in commodo amet nulla sunt sed irure.</p>
+		</article>
+	</details>
+</section>
+
+<!--Main Footer-->
+<footer>
+	<h2>Copyright &copy; 2018, UiBrains Technologies</h2>
+	<p>All Rights Reserved</p>
+	<small>Developed & Maintained by Srilatha</small>
+</footer>
+
+</body>
+</html>

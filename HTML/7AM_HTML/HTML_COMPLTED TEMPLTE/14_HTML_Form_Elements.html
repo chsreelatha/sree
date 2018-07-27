@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div{
+            background-color: orange;
+            color: black;
+            padding: 10px;
+            width: 400;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Login Form -->
+    <h2>Simple Login Form</h2>
+    <div>
+
+        <form>
+            <label for="username">UserName</label>
+            <input type="text" id="username">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+
+    </div>
+
+    <!-- Login form with Table -->
+    <h2>Login Form with Table</h2>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="username">UserName</label
+                    </td>
+                    <td><input type="text" id="username"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="submit">
+                    </td>
+                    <td>
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+           </table>
+        </form>
+    </div>
+
+    <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+    <div>
+    <label>Select a Language</label>
+    <form>
+    <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>Ajax</option>
+                <option>JQuery</option>
+                <option>Bootstrap</option>
+                <option>Angular Js</option>
+    </select>
+</form>
+    </div>
+
+    <!-- Textarea box -->;
+    <h2>Textarea box</h2>
+    <div>
+        <form>
+            <textarea rows="5" cols="38"></textarea>
+        </form>
+    </div>
+
+    <!-- Datalist (HTML5) -->
+     <h2>Datalist (HTML5)</h2>
+
+    <div>
+        <form>
+            <label>Select a Language</label>
+            <input list="technologies" name="tech">
+            <datalist id="technologies">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>Ajax</option>
+                <option>JQuery</option>
+                <option>Bootstrap</option>
+                <option>Angular Js</option>
+            </datalist>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+   
+
+</body>
+</html>

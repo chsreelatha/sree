@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+
+    <title>HTML Tables</title>
+        <style>
+            body{
+                font-family: Arial,sans-serif;
+            }
+            h2{
+                font-style: italic;
+                color: orangered;
+                font-size: 30px;
+                padding: 5px;
+                }
+            th{
+                color: deeppink;
+                font-size: 25px;
+                font-style: oblique;
+            }
+            table, th, td{
+               border: 2px solid purple;
+                border-collapse: collapse;
+                text-align: center;
+                padding: 10px;
+            }
+            #custom thead{
+                background-color: mediumpurple;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Simple Table</h2>
+        <table width="100%">
+            <thead>
+        <tr>
+            <th>Sno</th>
+            <th>Sname</th>
+            <th>Saddress</th>
+        </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nishanth</td>
+                <td>KNP</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Srilatha</td>
+                <td>NRT</td>
+            </tr><tr>
+                <td>3</td>
+                <td>Shourya</td>
+                <td>HYD</td>
+            </tbody>
+        </table>
+    <!--table with col-span-->
+           <h2>Table with Col-Span</h2>
+        <table width="100%">
+            <thead>
+            <tr>
+                <th>Sno</th>
+                <th colspan="2">Sname & Saddress</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nishanth</td>
+                <td>KNP</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Srilatha</td>
+                <td>NRT</td>
+            </tr><tr>
+                <td>3</td>
+                <td>Shourya</td>
+                <td>HYD</td>
+            </tbody>
+        </table>
+        <!--table with row-span-->
+        <h2>Table with Row-Span</h2>
+        <table width="100%">
+            <thead>
+            <tr>
+                <th>Sno</th>
+                <th>Sname</th>
+                <th>Saddress</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Nishanth</td>
+                <td>KNP</td>
+            </tr>
+                <tr>
+                    <td>Srilatha</td>
+                    <td>NRT</td>
+                </tr>
+            <tr>
+                <td>2</td>
+                <td>Shourya</td>
+                <td>HYD</td>
+            </tr>
+            </tbody>
+        </table>
+    <!--Custom Table with CSS-->
+    <h2>Custom Table with Css</h2>
+    <table width="100%" id="custom">
+        <thead>
+        <tr>
+            <th>Sno</th>
+            <th>Sname</th>
+            <th>Saddress</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Nishanth</td>
+            <td>KNP</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Srilatha</td>
+            <td>NRT</td>
+        </tr><tr>
+            <td>3</td>
+            <td>Shourya</td>
+            <td>HYD</td>
+        </tbody>
+    </table>
+    </html>
