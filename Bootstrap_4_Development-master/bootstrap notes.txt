@@ -1,0 +1,56 @@
+Bootstrap:
+-----------
+=>Bootstrap is a open sourse.
+=>for creating responsive web applications
+=>it is HTML, CSS, JS framework
+mobile first approach
+works for any browser any operating system any device
+develop any kind of application without using UI 
+easy to learn
+
+Bootstrap is Developed by Mark Otto, in 2011 by google
+
+Installation:
+------------
+=>using npm
+		npm install-g bootstrap
+=>using bootsrtap CDN(content delivery network)
+=>offline version
+		Bootstrap.min.css
+		Jquery.min.js
+		popper.jsbootstap.min.js
+=>install live server
+
+Bootstrap 4
+MDB(material design bootstrap)
+
+Media Queries:-
+---------------
+sm--mobile
+md--tablet
+lg--laptop/desktop
+xl--large devise
+
+colors:
+--------
+primary--blue color
+secondary--grey/light purple
+info--light blue
+success--green
+warning--orange
+light--light green
+
+padding & margin:-
+-------------------
+for margin left:- ml-0, ml-1, ml-2....ml-6
+for margin right:- mr
+for margin top:- mt
+for margin bottom:- mb
+
+ml+mr=mx
+mt+mb=my
+
+mx+my=m
+
+for padding :- pl, pr, pt, pb, px, py 
+
